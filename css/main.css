@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #22313f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: fadeIn 3s;
+          animation: fadeIn 3s;
+}
+
+.timeCard {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timeCard__date {
+  text-align: center;
+}
+
+.timeCard__date__text {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.timeCard__date__text--small {
+  font-size: .8rem;
+  font-weight: 300;
+  color: #555;
+}
+
+.timeCard__time {
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  border: 2px solid #22313f;
+  border-radius: 10px;
+}
+
+.timeCard__time:hover {
+  color: white;
+  background-color: #22313f;
+  border-color: transparent;
+}
+
+.timeCard__time__hour {
+  font-size: 6rem;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
